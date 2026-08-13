@@ -1,7 +1,7 @@
 :root {
-  --w7-link-c: #0066cc;
-  --w7-link-c-h: #3399ff;
-  --w7-title-c: #003399;
+  --w7-link-c: light-dark(#0066cc, #6cb2ff);
+  --w7-link-c-h: light-dark(#3399ff, #9dceff);
+  --w7-title-c: light-dark(#003399, #9dceff);
 }
 
 a {

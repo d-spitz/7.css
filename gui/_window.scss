@@ -72,6 +72,7 @@
     margin-top: 0;
     border: 1px solid var(--w7-w-bd);
     background: var(--w7-surface);
+    color: var(--w7-el-c);
     box-shadow: 0 0 0 1px #fff9;
 
     &.has-space {
@@ -88,6 +89,7 @@
     margin: var(--w7-w-space);
     margin-top: calc(-1 * var(--w7-w-space) - 1px);
     background: var(--w7-surface);
+    color: var(--w7-el-c);
     border: 1px solid var(--w7-w-bd);
     border-top: 0;
     box-shadow: 0 0.5px 1px 0.5px #fff;
@@ -512,6 +514,7 @@
   margin: var(--w7-w-space);
   margin-top: calc(var(--w7-w-space) * -1);
   background: var(--w7-surface);
+  color: var(--w7-el-c);
   border: 1px solid var(--w7-w-bd);
   border-top: 0;
   box-shadow: 0 1px 0 #fff9, 1px 0 0 #fff9, -1px 0 0 #fff9;
