@@ -1,5 +1,5 @@
 :root {
-  --w7-tab-bg: #fff;
+  --w7-tab-bg: light-dark(#fff, #2c2c2c);
 }
 
 [role="tabpanel"] {
@@ -20,7 +20,7 @@ menu[role="tablist"] {
     border-radius: 0;
     z-index: 1;
     display: block;
-    color: #222;
+    color: var(--w7-el-c);
     text-decoration: none;
     min-width: unset;
 
@@ -50,7 +50,7 @@ menu[role="tablist"] {
       }
 
       &:focus-visible {
-        outline: 1px dotted #222;
+        outline: 1px dotted var(--w7-el-c);
         outline-offset: -4px;
       }
     }

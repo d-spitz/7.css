@@ -1,13 +1,13 @@
 :root {
   /* active gradient color stops */
-  --w7-sb-grad-a-1: #c4e5f6;
-  --w7-sb-grad-a-2: #98d1ef;
+  --w7-sb-grad-a-1: light-dark(#c4e5f6, #1f3a52);
+  --w7-sb-grad-a-2: light-dark(#98d1ef, #173047);
   /* hovered gradient color stops */
-  --w7-sb-grad-h-1: #eaf6fd;
-  --w7-sb-grad-h-2: #bee6fd;
+  --w7-sb-grad-h-1: light-dark(#eaf6fd, #25415a);
+  --w7-sb-grad-h-2: light-dark(#bee6fd, #1c3550);
 
-  --w7-sb-y: linear-gradient(to right, #e5e5e5, var(--w7-surface) 20%);
-  --w7-sb-x: linear-gradient(to bottom, #e5e5e5, var(--w7-surface) 20%);
+  --w7-sb-y: linear-gradient(to right, light-dark(#e5e5e5, #3a3a3a), var(--w7-surface) 20%);
+  --w7-sb-x: linear-gradient(to bottom, light-dark(#e5e5e5, #3a3a3a), var(--w7-surface) 20%);
 }
 
 .has-scrollbar::-webkit-scrollbar {
