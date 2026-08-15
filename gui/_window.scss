@@ -232,7 +232,7 @@
     border-radius: 0 0 var(--w7-wct-bdr) var(--w7-wct-bdr);
     box-shadow: 0 1px 0 #fffa, 1px 0 0 #fffa, -1px 0 0 #fffa;
 
-    button {
+    :is(button, [role="button"]) {
       position: relative;
       min-width: 29px;
       min-height: 19px;
@@ -339,7 +339,7 @@
     .title-bar-controls {
       border-color: var(--w7-w-bd);
 
-      button {
+      :is(button, [role="button"]) {
         border-color: var(--w7-w-bd);
         box-shadow: var(--w7-wct-sd);
 
